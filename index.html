@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Işığı Aç-Kapa</title>
+</head>
+<body>
+    
+
+    <input type="button" value="Open Light" onClick="openLight();">
+    <img src="./img/OFFbulb.jpg" alt="Light" id="Picture">
+    <input type="button" value="Close Light" onClick="closeLight();">
+
+    <script>
+
+        function openLight(){
+            document.getElementById('Picture').src="img/ONbulb.jpg";
+        }
+        function closeLight(){
+            document.getElementById('Picture').src="img/OFFbulb.jpg";
+        }
+
+    </script>
+
+    
+</body>
+</html>
